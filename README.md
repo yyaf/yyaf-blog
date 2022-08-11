@@ -1,10 +1,9 @@
-## yyaf-blog
-我的个人博客使用 `issues` 和 `GitHub Actions` 记录。
+## Gitblog
+My personal blog using issues and GitHub Actions (随意转载，无需署名)
 [RSS Feed](https://raw.githubusercontent.com/yyaf/yyaf-blog/master/feed.xml)
-
-## 最近更新
-- [Linux 常用命令](https://github.com/yyaf/yyaf-blog/issues/1)--2022-08-11
-
 ## 友情链接
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
+## 最近更新
+- [Vim 指南](https://github.com/yyaf/yyaf-blog/issues/2)--2022-08-11
+- [Linux 常用命令](https://github.com/yyaf/yyaf-blog/issues/1)--2022-08-11
