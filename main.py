@@ -20,6 +20,14 @@ TODO_ISSUES_LABELS = ["TODO"]
 FRIENDS_LABELS = ["Friends"]
 IGNORE_LABELS = FRIENDS_LABELS + TOP_ISSUES_LABELS + TODO_ISSUES_LABELS
 
+FRIENDS_TABLE_HEAD = "| Name | Link | Desc | \n | ---- | ---- | ---- |\n"
+FRIENDS_TABLE_TEMPLATE = "| {name} | {link} | {desc} |\n"
+FRIENDS_INFO_DICT = {
+    "名字": "",
+    "链接": "",
+    "描述": "",
+}
+
 def get_me(user):
     return user.get_user().login
 
@@ -289,11 +297,3 @@ if __name__ == "__main__":
     )
     options = parser.parse_args()
     main(options.github_token, options.repo_name, options.issue_number)
-
-FRIENDS_TABLE_HEAD = "| Name | Link | Desc | \n | ---- | ---- | ---- |\n"
-FRIENDS_TABLE_TEMPLATE = "| {name} | {link} | {desc} |\n"
-FRIENDS_INFO_DICT = {
-    "名字": "",
-    "链接": "",
-    "描述": "",
-}
