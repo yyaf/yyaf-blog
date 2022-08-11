@@ -1,5 +1,5 @@
-## Gitblog
-My personal blog using issues and GitHub Actions (随意转载，无需署名)
+## yyaf blog
+blog 使用 `issues` 和 `GitHub Actions` 记录。
 [RSS Feed](https://raw.githubusercontent.com/yyaf/yyaf-blog/master/feed.xml)
 ## 友情链接
 | Name | Link | Desc | 
