@@ -1,5 +1,17 @@
 # [Oracle Cloud VPS CentOS 7 升级内核并开启官方原版BBR加速](https://github.com/yyaf/yyaf-blog/issues/6)
 
+# 使用 root 用户连接 VPS
+执行如下命令(sudo-i为切换到root账户,passwd为修改root账户密码)
+sudo -i
+passwd
+按提示刷入密码，重复输入密码。接着输入 
+```
+sudo sed -i 's/^#\?PermitRootLogin.*/PermitRootLogin yes/g' /etc/ssh/sshd_config;
+sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g' /etc/ssh/sshd_config;
+sudo service sshd restart
+```
+OK，直接root 密码登录就好
+
 # 配置流程
 ## 升级内核
 更新 yum
