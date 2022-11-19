@@ -6,8 +6,7 @@
 yum -y update
 查看内核
 uname -r
-# 内核版本 3.10.0-1062.12.1.el7.x86_64
-手动下载秋水 BBRPlus版内核
+手动下载秋水 BBRPlus 版内核
 wget https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/bbrplus/centos/7/kernel-4.14.129-bbrplus.rpm
 手动安装内核
 yum -y install kernel-4.14.129-bbrplus.rpm
