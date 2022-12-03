@@ -1,7 +1,7 @@
 # [CS 1.6 下载配置](https://github.com/yyaf/yyaf-blog/issues/8)
 
 ## 下载
-CS1.6 下载地址：[tsarvar.com（服务器多）](https://tsarvar.com/zh/download/counter-strike-1.6-install)、[csget.me](https://csget.me/cn/)
+CS1.6 下载地址：[tsarvar.com（带中国服务器无中文）](https://tsarvar.com/zh/download/counter-strike-1.6-install)、[csget.me（带中文无中国服务器）](https://csget.me/cn/)
 
 ## 配置
 在  `Counter-Strike 1.6\valve\userconfig.cfg` 修改用户配置文件
