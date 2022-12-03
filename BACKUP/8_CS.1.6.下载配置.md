@@ -26,7 +26,7 @@ m_filter "0"
 //“关闭鼠标平滑”，感觉定位更准，KING在CCSK上也是这么说，默认是1
 
 
-cl_righthand "0" // 玩家持枪0左手,1右手
+cl_righthand "1" // 玩家持枪0左手,1右手
 cl_bob "0" // 奔跑时手臂摆动的幅度
 cl_bobup "0" // 奔跑时手臂摆动的范围
 cl_solid_players "1" // 固定玩家模型
