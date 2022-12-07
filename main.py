@@ -8,9 +8,15 @@ from github import Github
 from feedgen.feed import FeedGenerator
 from lxml.etree import CDATA
 
-MD_HEAD = """## yyaf blog
-blog 使用 `issues` 和 `GitHub Actions` 记录。
-[RSS Feed](https://raw.githubusercontent.com/{repo_name}/main/feed.xml)
+MD_HEAD = """**<p align="center"> [Yyaf`s Blog](https://yueyafeng.tk/)</p>**
+====
+
+**<p align="center">用于记录生活和学习。</p>**
+
+## 联系方式
+- Email: [yyaf1999@gmail.com](mailto:yyaf1999@gmail.com)
+- Blog: [https://yueyafeng.tk](https://yueyafeng.tk/)
+- RSS: [RSS Feed](https://raw.githubusercontent.com/{repo_name}/main/feed.xml)
 """
 
 BACKUP_DIR = "BACKUP"
