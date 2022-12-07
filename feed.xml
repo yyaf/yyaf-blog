@@ -1,1 +1,398 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/yyaf/yyaf-blog</id><title>RSS feed of yyaf's yyaf-blog</title><updated>2022-12-07T05:11:28.603204+00:00</updated><author><name>yyaf</name><email>3542029545@qq.com</email></author><link href="https://github.com/yyaf/yyaf-blog"/><link href="https://raw.githubusercontent.com/yyaf/yyaf-blog/main/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/yyaf/yyaf-blog/issues/8</id><title>CS 1.6 下载配置</title><updated>2022-12-07T05:11:28.834869+00:00</updated><content type="html"><![CDATA[<h2>下载</h2>
+<p>CS1.6 下载地址：<a href="https://tsarvar.com/zh/download/counter-strike-1.6-install">tsarvar.com（带中国服务器无中文）</a>、<a href="https://csget.me/cn/">csget.me（带中文无中国服务器）</a></p>
+<h2>配置</h2>
+<p>在  <code>Counter-Strike 1.6\valve\userconfig.cfg</code> 修改用户配置文件</p>
+<pre><code>cl_rate 20000
+rate 25000
+cl_updaterate 101
+cl_cmdrate 101
+ex_interp 0.01
+//这个参数一般都放在userconfig.cfg中，所有的世界高手都是0.01以后出去打lan 只改这些就够了。ex_interp 0.01 情况下压枪特好，一压就死，反而 0.1 只在墙上描绘的弹道很集中，其实子弹很散。
+fps_max 101
 
+cl_dynamiccrosshair 0
+//关闭武器动画，在行进中准星不变。默认是1
+_cl_autowepswitch 1
+//是否自动捡枪
+brightness &quot;5&quot;
+//明亮些，默认是1
+s_eax &quot;1&quot;
+//打开声卡的EAX，方位感更好，默认是0
+m_filter &quot;0&quot;
+//“关闭鼠标平滑”，感觉定位更准，KING在CCSK上也是这么说，默认是1
+
+
+cl_righthand &quot;1&quot; // 玩家持枪0左手,1右手
+cl_bob &quot;0&quot; // 奔跑时手臂摆动的幅度
+cl_bobup &quot;0&quot; // 奔跑时手臂摆动的范围
+cl_solid_players &quot;1&quot; // 固定玩家模型
+cl_weather &quot;0&quot; // 关闭天气(如:de_aztec)
+cl_cmdbackup &quot;2&quot; // 20-ping调2，30-ping调3...
+r_waterwarp &quot;0&quot; // 关闭天气在水面上的反应
+gl_spriteblend &quot;1&quot; // 加大血迹.准星显示(0开1关)
+cl_lw &quot;1&quot; // BUG-&gt;设&quot;0&quot;会变成用刀是另外一只手,有无武器的动画,最好设1
+_cl_autowepswitch &quot;0&quot; // 自动切换到拣起的更好的武器
+cl_crosshair_size &quot;medium&quot; // 准星大小,自动=auto,大=large,中=medium,小=small
+cl_crosshair_translucent &quot;0&quot; // 透明准星
+cl_crosshair_color &quot;255 255 0&quot; // 准星颜色
+cl_dynamiccrosshair &quot;0&quot; // 动态准星
+cl_logocolor &quot;#Valve_Ltblue&quot; // 喷图颜色
+cl_logofile &quot;5HP005&quot; // 喷图图案
+cl_radartype &quot;1&quot; // 实心雷达
+fps_max &quot;101&quot; // 游戏输给显卡的最大FPS数
+fps_modem &quot;101&quot; // 互联网游戏中的最大FPS值
+graphheight &quot;30&quot;
+net_graphpos &quot;1&quot; // \
+net_graphwidth &quot;100&quot; // \ FPS
+net_graph &quot;3&quot; // / 显示位置
+net_scale &quot;5&quot; // /
+
+console &quot;1&quot;
+_snd_mixahead &quot;0.1&quot; // 左右声道混合度
+_windowed_mouse &quot;0&quot;
+ati_npatch &quot;0&quot;
+ati_subdiv &quot;0&quot;
+bgmvolume &quot;1&quot; // 播放CD音乐
+bottomcolor &quot;6&quot; // 设定玩家人物模型的底部颜色
+brightness &quot;3&quot; // 调节图像的亮度和对比度
+cl_highmodels &quot;0&quot; // 建模质量
+cl_allowdownload &quot;1&quot; // 允许下载
+cl_allowupload &quot;1&quot; // 允许上传
+cl_backspeed &quot;400&quot; // 后退的速度
+cl_career_difficulty &quot;0&quot;
+cl_corpsestay &quot;140&quot; // 尸体沉入地面前的时间
+cl_dlmax &quot;128&quot;
+cl_download_ingame &quot;0&quot; // 允许在游戏里下载其它玩家LOGO、贴图
+cl_forwardspeed &quot;400&quot; // 前进的速度
+cl_gaitestimation &quot;1&quot;
+cl_himodels &quot;0&quot; // 使用较底细节的人物皮肤,提高显示速度,0是预设值,如果你的机子好的话可以设成1
+cl_idealpitchscale &quot;0.8&quot;
+cl_lc &quot;1&quot; // 和cs的新的网络技术有关,最好设1
+cl_minmodels &quot;1&quot; // 是否减少人物模型以减少资源占用
+cl_nolerp &quot;0&quot;
+cl_nopred &quot;0&quot;
+cl_observercrosshair &quot;1&quot; // 观察员模式的时候是否要开起准星
+cl_pred_fraction &quot;0.5&quot;
+cl_pred_maxtime &quot;255&quot;
+cl_pitchspeed &quot;225&quot;
+cl_sidespeed &quot;400&quot;
+cl_shadows &quot;0&quot; // 关闭玩家阴影
+cl_showfps &quot;0&quot; // 是否在画面左上脚显示fps值
+cl_timeout &quot;30&quot; // 设定连接超时
+cl_vsmoothing &quot;0.05&quot; // 屏幕显示方面的预测
+crosshair &quot;1&quot; // 显示武器的准星
+d_spriteskip &quot;0&quot; // 关闭动态特效(.spr效果)
+developer &quot;0&quot; // 左上角显示console讯息
+fastsprites &quot;0&quot; // 烟雾细节
+gamma &quot;3&quot; // gamma亮度值
+gl_playermip &quot;4&quot; // 2混合玩家建模纹理*
+gl_picmip &quot;0&quot; // 1混合纹理*
+gl_wateramp &quot;0&quot; // 不显示水波
+gl_texturemode &quot;GL_LINEAR_MIPMAP_NEAREST&quot; // 设置纹理模式
+gl_round_down &quot;5&quot; // 纹理降级等级固定(1-99越高质量越低)*
+gl_palette_tex &quot;0&quot; // 开关调色贴图值;材质,使纹理平滑
+gl_keeptjunctions &quot;0&quot; // 开关显示材质间的缝隙
+gl_cull &quot;1&quot; // 只渲染可见目标
+gl_dither &quot;1&quot; // 开关颜色抖动
+gl_flipmatrix &quot;0&quot; // 开关特殊的准星修正当适用3DNow和3D fx Mini OpenGL驱动时
+gl_fog &quot;1&quot;
+gl_monolights &quot;0&quot; // 开关统一光源(无阴影)OpenGL适用
+gl_overbright &quot;0&quot; // 开关最大亮度模式
+gl_polyoffset &quot;0.1&quot; // 设定多边形补偿
+gl_max_size &quot;256&quot; // &quot;128&quot;设定纹理大小*
+gl_affinemodels &quot;0&quot;
+gl_alphamin &quot;0.25&quot; // 设定最小alpha混合等级
+gl_clear &quot;0&quot; // 对画面上各个模型连接的部分的连贯渲染
+gl_flashblend &quot;0&quot;
+gl_lightholes &quot;0&quot; // 光洞效果开关
+gl_spriteblend &quot;0&quot;
+hisound &quot;1&quot; // 使用高品质音频
+hpk_maxsize &quot;0.2&quot; // hpk文件最大值
+hud_capturemouse &quot;1&quot; // 游戏图形菜单的选择是否用鼠标(建议使用)
+hud_centerid &quot;1&quot; // 玩家ID出现在屏幕的正中央
+hud_deathnotice_time &quot;6&quot;
+hud_draw &quot;1&quot; // AWP开镜后的黑框
+hud_fastswitch &quot;1&quot; // 按数字直接换武器不用再按鼠标
+hud_saytext_internal &quot;1&quot;
+hud_classautokill &quot;1&quot;
+hud_saytext_time &quot;5&quot;
+hud_takesshots &quot;0&quot; // 游戏结束时截取玩家成绩图像文件
+hud_saytext_time &quot;5&quot;
+joystick &quot;0&quot; // 关闭游戏操纵杆
+lookspring &quot;0&quot; // 自动回复视角到中心当mlook关闭时
+lookstrafe &quot;0&quot; // 鼠标平移当mlook开启时
+m_filter &quot;0&quot; // 鼠标调整(使移动平滑)
+m_forward &quot;1&quot;
+m_pitch &quot;0.022&quot;
+m_side &quot;0.8&quot;
+m_yaw &quot;0.022&quot;
+model &quot;gordon&quot;
+MP3FadeTime &quot;2&quot;
+MP3Volume &quot;0.8&quot;
+mp_decals &quot;20&quot; // 贴图分辨率
+max_shells &quot;0&quot; // 0关闭子弹退镗,不显示弹壳
+max_smokepuffs &quot;30&quot; // 0关闭烟雾扩散效果
+precache &quot;1&quot; // 开启预读模型模式
+r_mmx &quot;1&quot; // 允许使用CPU MMX指令集
+r_shadows &quot;0&quot; // 关闭阴影
+r_norefresh &quot;0&quot; // 非必要时不更新hud和console
+r_bmodelhighfrac &quot;5&quot; // 模型的highfrac值
+r_detailtextures &quot;0&quot; // 把材质的细部调到最低,增加效能
+r_dynamic &quot;1&quot; // 动态光影效果,固定动态光源
+r_novis &quot;0&quot; // 关闭水波特效
+r_traceglow &quot;1&quot; // 光影特效
+r_wateralpha &quot;1&quot; // 如果在r_novis 中设置为0,这里就请设置为1
+r_mirroralpha &quot;0&quot; // 关闭反射图片*开关alpha镜像混合
+r_lightmap &quot;0&quot;
+
+// 声音
+s_a3d &quot;0&quot;
+s_automax_distance &quot;30&quot;
+s_automin_distance &quot;2&quot;
+s_bloat &quot;2&quot;
+s_distance &quot;60&quot;
+s_doppler &quot;0&quot;
+s_eax &quot;0&quot;
+s_leafnum &quot;0&quot;
+s_max_distance &quot;1000&quot;
+s_min_distance &quot;8&quot;
+s_numpolys &quot;200&quot;
+s_polykeep &quot;1000000000&quot;
+s_polysize &quot;10000000&quot;
+s_refdelay &quot;4&quot;
+s_refgain &quot;0.4&quot;
+s_rolloff &quot;1&quot;
+s_verbwet &quot;0.25&quot;
+
+skin &quot;&quot;
+spec_autodirector_internal &quot;1&quot;
+spec_drawcone_internal &quot;1&quot;
+spec_drawnames_internal &quot;1&quot;
+spec_drawstatus_internal &quot;1&quot;
+spec_mode_internal &quot;3&quot;
+spec_pip &quot;0&quot;
+suitvolume &quot;0.25&quot;
+sv_aim &quot;0&quot;
+sv_voiceenable &quot;1&quot;
+team &quot;&quot;
+topcolor &quot;30&quot; // 玩家人物模型的顶部颜色
+viewsize &quot;120&quot; // 改变显示窗口尺寸(最好别小于100)
+voice_enable &quot;1&quot;
+voice_forcemicrecord &quot;1&quot;
+voice_modenable &quot;1&quot;
+voice_scale &quot;1&quot;
+volume &quot;0.8&quot; // 音量
+setinfo &quot;_vgui_menus&quot; &quot;0&quot; // 图形购买界面
+</code></pre>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/8" rel="alternate"/><category term="games"/><published>2022-12-03T11:07:59+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/7</id><title>30 天跑步计划</title><updated>2022-12-07T05:11:28.932066+00:00</updated><content type="html"><![CDATA[<h1>30 天跑步计划</h1>
+<blockquote>
+<p>由于工作原因，宿舍在高速公路旁边造成睡眠质量不好。希望可一通过跑步可以改善睡眠质量并且可以锻炼身体，所以制定了这个跑步计划。</p>
+</blockquote>
+<h2>01day</h2>
+<p>开始时间：2022年11月21日 23:50
+运动时长：41分钟
+<img src="https://user-images.githubusercontent.com/37788991/203140319-886f3043-d8d8-4bd4-913f-47f5946680e7.jpg" alt="间歇式跑步.jpg" /></p>
+<p><img src="https://user-images.githubusercontent.com/37788991/203140426-64ff6c88-3a87-4659-a304-69e7048611ac.jpg" alt="第一次跑步记录.jpg" /></p>
+<p>02 day 打卡完成
+03 day 打卡完成
+04 day 打卡完成
+05 day 打卡完成
+06 day 打卡完成
+07 day 打卡完成
+08 day 打卡完成
+11月28日，今天感觉身体疲惫。
+09 day 打卡完成
+10 day 打卡完成
+11 day 打卡完成
+12 day 打卡完成
+13 day 打卡完成
+14 day 打卡完成
+15 day 打卡完成
+16 day 打卡完成
+12月6日，提升了一下跑步速度。
+<img src="https://user-images.githubusercontent.com/37788991/205948465-10be8163-7e21-4fe9-8b0c-e0861ccfde34.jpg" alt="IMG_20221206_202327.jpg" /></p>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/7" rel="alternate"/><category term="30 天计划"/><published>2022-11-21T19:09:19+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/6</id><title>Oracle Cloud VPS CentOS 7 升级内核并开启官方原版BBR加速</title><updated>2022-12-07T05:11:29.033912+00:00</updated><content type="html"><![CDATA[<h1>使用 root 用户连接 VPS</h1>
+<p>执行如下命令(sudo-i为切换到root账户,passwd为修改root账户密码)</p>
+<pre><code>sudo -i
+passwd
+</code></pre>
+<p>按提示刷入密码，重复输入密码。接着输入 </p>
+<pre><code>sudo sed -i &#x27;s/^#\?PermitRootLogin.*/PermitRootLogin yes/g&#x27; /etc/ssh/sshd_config;
+sudo sed -i &#x27;s/^#\?PasswordAuthentication.*/PasswordAuthentication yes/g&#x27; /etc/ssh/sshd_config;
+sudo service sshd restart
+</code></pre>
+<p>OK，直接root 密码登录就好</p>
+<h1>配置流程</h1>
+<h2>升级内核</h2>
+<p>更新 yum</p>
+<pre><code>yum -y update
+</code></pre>
+<p>查看内核</p>
+<pre><code>uname -r
+</code></pre>
+<p>手动下载秋水 BBRPlus 版内核</p>
+<pre><code>wget https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/bbrplus/centos/7/kernel-4.14.129-bbrplus.rpm
+</code></pre>
+<p>手动安装内核
+<code>yum -y install kernel-4.14.129-bbrplus.rpm</code>
+更新引导</p>
+<pre><code>grub2-mkconfig -o /boot/grub2/grub.cfg
+grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
+</code></pre>
+<p>列出系统开机启动项</p>
+<pre><code>sudo awk -F\&#x27; &#x27;$1==&quot;menuentry &quot; {print i++ &quot; : &quot; $2}&#x27; /boot/efi/EFI/centos/grub.cfg
+</code></pre>
+<p>设置新版内核默认启动项</p>
+<pre><code>grub2-set-default 0
+</code></pre>
+<p>重启</p>
+<pre><code>reboot
+</code></pre>
+<h2>开启 BBRPlus 及优化</h2>
+<p>秋水一键脚本,选择7开启BBRPlus加速.
+再次<code>./tcp.sh</code>运行脚本,选择10优化并重启完成.</p>
+<pre><code>wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh
+</code></pre>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/6" rel="alternate"/><category term="VPS"/><published>2022-11-19T18:51:09+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/5</id><title>Linux 常用脚本</title><updated>2022-12-07T05:11:29.123428+00:00</updated><content type="html"><![CDATA[<h1>系统优化相关</h1>
+<p>重装系统（DD 脚本）</p>
+<blockquote>
+<p>萌咖大佬的一键DD脚本 <a href="https://github.com/veip007/dd">Github</a> </p>
+</blockquote>
+<pre><code class="language-bash">##镜像文件在OneDrive
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-od.sh &amp;&amp; chmod +x dd-od.sh &amp;&amp; ./dd-od.sh
+</code></pre>
+<pre><code class="language-bash">##镜像文件在GoogleDrive
+wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/master/dd-gd.sh &amp;&amp; chmod +x dd-gd.sh &amp;&amp; ./dd-gd.sh
+</code></pre>
+<p>TCP 加速</p>
+<pre><code class="language-bash">wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh
+</code></pre>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/5" rel="alternate"/><published>2022-11-19T17:45:58+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/4</id><title>编程学习路线</title><updated>2022-12-07T05:11:29.197025+00:00</updated><content type="html"><![CDATA[<h1>前言</h1>
+<p>CS 61A: Structure and Interpretation of Computer Programs
+课程地址：<a href="https://inst.eecs.berkeley.edu/~cs61a/fa20/">CS 61A Fall 2020</a>
+国内视频：<a href="https://www.bilibili.com/video/BV1QP4y1u7jv/?spm_id_from=333.999.0.0">bilibili</a>
+教材地址：<a href="http://composingprograms.com/">SICP</a></p>
+<p>参考学习路线：</p>
+<ul>
+<li><a href="https://github.com/liyupi/code-roadmap/blob/main/docs/roadmap/Java%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF.md">Java 学习</a></li>
+<li><a href="https://github.com/Snailclimb/JavaGuide">Java 指南</a></li>
+<li><a href="https://github.com/PKUFlyingPig/cs-self-learning">CS diy 自学指南</a></li>
+<li><a href="https://github.com/mattmakai/fullstackpython.com">全栈 Python</a></li>
+<li><a href="https://github.com/izackwu/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md">自学计算机科学</a></li>
+</ul>
+<h1>一、编程语言基础</h1>
+<p>选择一门编程语言（C、C++、Java），这里我选择使用 Java 来学习。</p>
+<ol>
+<li>书籍： </li>
+</ol>
+<ul>
+<li>基础《Java 核心技术》</li>
+<li>进阶《Java 编程思想》、《深入理解 Java 虚拟机》</li>
+</ul>
+<h1>二、 数据结构和算法</h1>
+<p>书籍：</p>
+<ul>
+<li>《数据结构与算法分析》</li>
+<li>《算法》</li>
+</ul>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/4" rel="alternate"/><published>2022-11-18T06:34:34+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/3</id><title>日记本</title><updated>2022-12-07T05:11:29.308021+00:00</updated><content type="html"><![CDATA[<p>使用评论功能记录日常：</p>
+<ul>
+<li>生活</li>
+<li>工作</li>
+<li>学习</li>
+<li><em>慢慢补充</em></li>
+</ul>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/3" rel="alternate"/><published>2022-11-17T22:58:43+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/2</id><title>Vim 指南</title><updated>2022-12-07T05:11:29.412123+00:00</updated><content type="html"><![CDATA[<h2>01 插入模式</h2>
+<p>i 当前位置插入。<br />
+a 当前位置追加。<br />
+A 当前行尾追加。<br />
+o 打开新的下一行，并进入插入模式。<br />
+O 打开新的上一行，并进入插入模式。  </p>
+<h2>02 移动光标</h2>
+<p>上 k<br />
+下 j<br />
+左 h<br />
+右 l<br />
+行首 0<br />
+^ 回到首个非空字符。<br />
+$ 移动到行尾。<br />
+w 移动到下一个空格后的第一个字符。<br />
+W 移动到下一个空格后的第一个字符（忽略标点符号）。<br />
+b 移动到上一个空格后的第一个字符。<br />
+B 移动到上一个空格后的第一个字符（忽略标点符号）。<br />
+ctrl+f or Page Down 向下翻一页。<br />
+ctrl+b or Page Up 向上翻一页。<br />
+number+G 移动到第number行。<br />
+G 移动到文件末尾。  </p>
+<blockquote>
+<p>注：vim许多命令可以在前面加上一个数字，例如“5j”将光标下移5行。  </p>
+</blockquote>
+<h2>03 删除文本</h2>
+<p>x 当前字符。<br />
+3x 当前字符及其后的两个字符。<br />
+dd 当前行。<br />
+dW(w) 从光标位置开始到下一个单词的开头。<br />
+d$ 从光表位置开始到当前行的行尾。<br />
+d0 从光标位置开始到当前行的行首。<br />
+d^ 从光标位置开始到文本行的第一个非空字符。<br />
+dG 从当前行到文件的末尾。<br />
+d20G 从当前行到文件的第20行。  </p>
+<h2>04 剪切、复制和粘贴</h2>
+<p>p 粘贴。<br />
+d 这个命令不仅删除文本，还剪切文本。<br />
+J 连接当前行和下一行。  </p>
+<h3>a 复制</h3>
+<p>yy 当前行。<br />
+yW 从当前光标位置到下一个单词的开头。<br />
+y$ 从当前光标位置到当前行的末尾。<br />
+y0 从当前光标位置到行首。<br />
+y^ 从当前光标位置到文本行的第一个非空字符。<br />
+yG 从当前行到文件末尾。  </p>
+<h2>05 查找和替换</h2>
+<p>f 查找一行内的内容。<br />
+/ 查找整个文件内的内容。(n查找下一个)  </p>
+<h3>a 全局查找和替代</h3>
+<p>将整个文件中的单词“Line”个很改为“line”：<br />
+:%s/Line/line/g<br />
+分解为：
+<code>:</code> 运行一个ex命令。<br />
+% 指定要操作的行署。%是一个快捷方式，表示从第一行到最后一行。令为，操作范围也可以用1，5来代替，或者用1，$来代替。<br />
+s 制定操作。在这种情况下是，替换（查找与替代）。<br />
+/Line/line 查找类型与代替文本。<br />
+g 这是全局的意思。如果省略g，则只替换每个文本行中第一个匹配的字符串。<br />
+在这个命令末尾添加一个“c”字符来添加提示。<br />
+replace with Line (y/n/a/q/l/^E/^Y)?  </p>
+<h2>06 编辑多个文件</h2>
+<h3>a 打开多个文件</h3>
+<p>vim file1 file2 file3...  </p>
+<h3>b 文件之间切换</h3>
+<p>从当前文件切换到下一个文件：<br />
+:n<br />
+回到先前的文件使用：<br />
+:N<br />
+查看正在编辑的文件列表：<br />
+:buffers<br />
+切换第二个文件：<br />
+:buffer 2<br />
+vim中打开另一个文件：<br />
+:e file<br />
+跨文件复制粘贴：<br />
+yy复制<br />
+p 粘贴  </p>
+<p>插入整个文件r(read)：<br />
+:r file  </p>
+<h2>07 保存工作</h2>
+<p>保存：<br />
+:w<br />
+保存并退出:<br />
+:wq  </p>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/2" rel="alternate"/><published>2022-08-11T01:29:19+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/1</id><title>Linux 常用命令</title><updated>2022-12-07T05:11:29.499496+00:00</updated><content type="html"><![CDATA[<h2>1. 用户管理</h2>
+<pre><code>adduser username    // 创建用户
+apt install sudo    // 安装sudo
+usermod -aG sudo username   // 将用户添加到sudo组
+
+sudo deluser username   // 删除用户
+sudo deluser --remove-home username // 删除用户的主目录和邮件后台处理程序
+</code></pre>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/1" rel="alternate"/><published>2022-08-11T01:04:53+00:00</published></entry></feed>
