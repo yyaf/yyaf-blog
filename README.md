@@ -1,6 +1,6 @@
 ## yyaf blog
 blog 使用 `issues` 和 `GitHub Actions` 记录。
-[RSS Feed](https://raw.githubusercontent.com/yyaf/yyaf-blog/master/feed.xml)
+[RSS Feed](https://raw.githubusercontent.com/yyaf/yyaf-blog/main/feed.xml)
 ## 友情链接
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
