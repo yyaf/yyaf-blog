@@ -1,6 +1,12 @@
-## yyaf blog
-blog 使用 `issues` 和 `GitHub Actions` 记录。
-[RSS Feed](https://raw.githubusercontent.com/yyaf/yyaf-blog/main/feed.xml)
+**<p align="center"> [Yyaf`s Blog](https://yueyafeng.tk/)</p>**
+====
+
+**<p align="center">用于记录生活和学习。</p>**
+
+## 联系方式
+- Email: [yyaf1999@gmail.com](mailto:yyaf1999@gmail.com)
+- Blog: [https://yueyafeng.tk](https://yueyafeng.tk/)
+- RSS: [RSS Feed](https://raw.githubusercontent.com/yyaf/yyaf-blog/main/feed.xml)
 ## 友情链接
 | Name | Link | Desc | 
  | ---- | ---- | ---- |
