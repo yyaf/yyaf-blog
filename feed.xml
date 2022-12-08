@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/yyaf/yyaf-blog</id><title>RSS feed of yyaf's yyaf-blog</title><updated>2022-12-08T16:38:32.826657+00:00</updated><author><name>yyaf</name><email>3542029545@qq.com</email></author><link href="https://github.com/yyaf/yyaf-blog"/><link href="https://raw.githubusercontent.com/yyaf/yyaf-blog/main/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/yyaf/yyaf-blog/issues/8</id><title>CS 1.6 下载配置</title><updated>2022-12-08T16:38:33.085593+00:00</updated><content type="html"><![CDATA[<h2>下载</h2>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/yyaf/yyaf-blog</id><title>RSS feed of yyaf's yyaf-blog</title><updated>2022-12-08T18:34:59.144733+00:00</updated><author><name>yyaf</name><email>3542029545@qq.com</email></author><link href="https://github.com/yyaf/yyaf-blog"/><link href="https://raw.githubusercontent.com/yyaf/yyaf-blog/main/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/yyaf/yyaf-blog/issues/8</id><title>CS 1.6 下载配置</title><updated>2022-12-08T18:34:59.601477+00:00</updated><content type="html"><![CDATA[<h2>下载</h2>
 <p>CS1.6 下载地址：<a href="https://tsarvar.com/zh/download/counter-strike-1.6-install">tsarvar.com（带中国服务器无中文）</a>、<a href="https://csget.me/cn/">csget.me（带中文无中国服务器）</a></p>
 <h2>配置</h2>
 <p>在  <code>Counter-Strike 1.6\valve\userconfig.cfg</code> 修改用户配置文件</p>
@@ -185,7 +185,7 @@ voice_scale &quot;1&quot;
 volume &quot;0.8&quot; // 音量
 setinfo &quot;_vgui_menus&quot; &quot;0&quot; // 图形购买界面
 </code></pre>
-]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/8" rel="alternate"/><category term="games"/><published>2022-12-03T11:07:59+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/7</id><title>30 天跑步计划</title><updated>2022-12-08T16:38:33.223892+00:00</updated><content type="html"><![CDATA[<h1>30 天跑步计划</h1>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/8" rel="alternate"/><category term="games"/><published>2022-12-03T11:07:59+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/7</id><title>30 天跑步计划</title><updated>2022-12-08T18:34:59.783771+00:00</updated><content type="html"><![CDATA[<h1>30 天跑步计划</h1>
 <blockquote>
 <p>由于工作原因，宿舍在高速公路旁边造成睡眠质量不好。希望可一通过跑步可以改善睡眠质量并且可以锻炼身体，所以制定了这个跑步计划。</p>
 </blockquote>
@@ -212,8 +212,9 @@ setinfo &quot;_vgui_menus&quot; &quot;0&quot; // 图形购买界面
 16 day 打卡完成
 12月6日，提升了一下跑步速度。
 <img src="https://user-images.githubusercontent.com/37788991/205948465-10be8163-7e21-4fe9-8b0c-e0861ccfde34.jpg" alt="IMG_20221206_202327.jpg" />
-17 day 打卡完成</p>
-]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/7" rel="alternate"/><category term="30 天计划"/><published>2022-11-21T19:09:19+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/6</id><title>Oracle Cloud VPS CentOS 7 升级内核并开启官方原版BBR加速</title><updated>2022-12-08T16:38:33.347869+00:00</updated><content type="html"><![CDATA[<h1>使用 root 用户连接 VPS</h1>
+17 day 打卡完成
+12月8日，跟朋友喝酒🍺，没有跑步。</p>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/7" rel="alternate"/><category term="30 天计划"/><published>2022-11-21T19:09:19+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/6</id><title>Oracle Cloud VPS CentOS 7 升级内核并开启官方原版BBR加速</title><updated>2022-12-08T18:34:59.975574+00:00</updated><content type="html"><![CDATA[<h1>使用 root 用户连接 VPS</h1>
 <p>执行如下命令(sudo-i为切换到root账户,passwd为修改root账户密码)</p>
 <pre><code>sudo -i
 passwd
@@ -255,7 +256,7 @@ grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
 再次<code>./tcp.sh</code>运行脚本,选择10优化并重启完成.</p>
 <pre><code>wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh
 </code></pre>
-]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/6" rel="alternate"/><category term="VPS"/><published>2022-11-19T18:51:09+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/5</id><title>Linux 常用脚本</title><updated>2022-12-08T16:38:33.475995+00:00</updated><content type="html"><![CDATA[<h1>系统优化相关</h1>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/6" rel="alternate"/><category term="VPS"/><published>2022-11-19T18:51:09+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/5</id><title>Linux 常用脚本</title><updated>2022-12-08T18:35:00.140557+00:00</updated><content type="html"><![CDATA[<h1>系统优化相关</h1>
 <p>重装系统（DD 脚本）</p>
 <blockquote>
 <p>萌咖大佬的一键DD脚本 <a href="https://github.com/veip007/dd">Github</a> </p>
@@ -269,7 +270,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/mast
 <p>TCP 加速</p>
 <pre><code class="language-bash">wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh
 </code></pre>
-]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/5" rel="alternate"/><published>2022-11-19T17:45:58+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/4</id><title>编程学习路线</title><updated>2022-12-08T16:38:33.587449+00:00</updated><content type="html"><![CDATA[<h1>前言</h1>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/5" rel="alternate"/><published>2022-11-19T17:45:58+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/4</id><title>编程学习路线</title><updated>2022-12-08T18:35:00.321299+00:00</updated><content type="html"><![CDATA[<h1>前言</h1>
 <p>CS 61A: Structure and Interpretation of Computer Programs
 课程地址：<a href="https://inst.eecs.berkeley.edu/~cs61a/fa20/">CS 61A Fall 2020</a>
 国内视频：<a href="https://www.bilibili.com/video/BV1QP4y1u7jv/?spm_id_from=333.999.0.0">bilibili</a>
@@ -297,14 +298,14 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/veip007/dd/mast
 <li>《数据结构与算法分析》</li>
 <li>《算法》</li>
 </ul>
-]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/4" rel="alternate"/><published>2022-11-18T06:34:34+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/3</id><title>日记本</title><updated>2022-12-08T16:38:33.708482+00:00</updated><content type="html"><![CDATA[<p>使用评论功能记录日常：</p>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/4" rel="alternate"/><published>2022-11-18T06:34:34+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/3</id><title>日记本</title><updated>2022-12-08T18:35:00.501213+00:00</updated><content type="html"><![CDATA[<p>使用评论功能记录日常：</p>
 <ul>
 <li>生活</li>
 <li>工作</li>
 <li>学习</li>
 <li><em>慢慢补充</em></li>
 </ul>
-]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/3" rel="alternate"/><published>2022-11-17T22:58:43+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/2</id><title>Vim 指南</title><updated>2022-12-08T16:38:33.837071+00:00</updated><content type="html"><![CDATA[<h2>01 插入模式</h2>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/3" rel="alternate"/><published>2022-11-17T22:58:43+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/2</id><title>Vim 指南</title><updated>2022-12-08T18:35:00.695067+00:00</updated><content type="html"><![CDATA[<h2>01 插入模式</h2>
 <p>i 当前位置插入。<br />
 a 当前位置追加。<br />
 A 当前行尾追加。<br />
@@ -388,7 +389,7 @@ p 粘贴  </p>
 :w<br />
 保存并退出:<br />
 :wq  </p>
-]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/2" rel="alternate"/><published>2022-08-11T01:29:19+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/1</id><title>Linux 常用命令</title><updated>2022-12-08T16:38:33.982486+00:00</updated><content type="html"><![CDATA[<h2>1. 用户管理</h2>
+]]></content><link href="https://github.com/yyaf/yyaf-blog/issues/2" rel="alternate"/><published>2022-08-11T01:29:19+00:00</published></entry><entry><id>https://github.com/yyaf/yyaf-blog/issues/1</id><title>Linux 常用命令</title><updated>2022-12-08T18:35:00.897186+00:00</updated><content type="html"><![CDATA[<h2>1. 用户管理</h2>
 <pre><code>adduser username    // 创建用户
 apt install sudo    // 安装sudo
 usermod -aG sudo username   // 将用户添加到sudo组
